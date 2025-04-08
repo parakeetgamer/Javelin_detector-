@@ -1,9 +1,14 @@
-venv/
-__pycache__/
-*.pyc
-.DS_Store
+# Exclude virtual environments
 .venv/
 venv/
+
+# Exclude Python cache files
 __pycache__/
 *.pyc
+
+# Exclude system files
 .DS_Store
+
+# (Optionally) Exclude large model files if you want to use Git LFS
+# For example, if you decide to track .pt files with Git LFS:
+*.pt
