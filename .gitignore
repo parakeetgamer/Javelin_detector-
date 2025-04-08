@@ -1,14 +1,14 @@
-# Exclude virtual environments
+# Exclude virtual environment directories
 .venv/
 venv/
+env/
 
-# Exclude Python cache files
-__pycache__/
-*.pyc
-
-# Exclude system files
+# Exclude IDE settings, temporary files, and OS-specific files
+.idea/
+.vscode/
+*.swp
 .DS_Store
+__pycache__/
 
-# (Optionally) Exclude large model files if you want to use Git LFS
-# For example, if you decide to track .pt files with Git LFS:
-*.pt
+# Optionally exclude large data files, logs, etc.
+*.log
